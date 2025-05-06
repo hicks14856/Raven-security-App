@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "lib": ["deno.window", "dom", "esnext"],
+    "types": ["@types/node"]
+  },
+  "importMap": {
+    "imports": {
+      "@react-email/components": "npm:@react-email/components",
+      "@react-email/render": "npm:@react-email/render",
+      "resend": "npm:resend@2.0.0"
+    }
+  }
+} 
